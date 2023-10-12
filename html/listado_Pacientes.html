@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Pacientes</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Listado de Pacientes</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Número de Cédula</th>
+                <th>Edad</th>
+                <th>Teléfono</th>
+                <th>Especialidad</th>
+                <th>Médico</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo-tabla-pacientes">
+            <tr>
+                <td>jairo</td>
+                <td>ramirez</td>
+                <td>1029476873</td>
+                <td>30</td>
+                <td>3115487622</td>
+                <td>Cardiología</td>
+                <td>Médico1</td>
+            </tr>
+            <!-- Puedes agregar más filas para mostrar más pacientes -->
+        </tbody>
+    </table>
+    <div>
+        <a href="index.html" type="button" value="Volver"></a>
+    </div>
+    <button onclick="window.location.href='../index.html'" id="returnIndex">Volver al Menú de Inicio</button>
+    <footer>
+        <h3>Realizado por Sergio Suarez</h3>
+        
+    </footer>
+    <script src="../app.js"></script>
+</body>
+</html>
